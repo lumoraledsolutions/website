@@ -1,10 +1,36 @@
-body{
-    font-family: Arial, sans-serif;
-    max-width:900px;
-    margin:auto;
-    padding:40px;
+```css
+/* General Page Styling */
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+    line-height: 1.6;
 }
 
-h1{
-    color:#0070f3;
+/* Headings */
+h1 {
+    color: #00AEEF;
+    font-size: 2.8rem;
+    margin-bottom: 20px;
 }
+
+/* Paragraphs */
+p {
+    font-size: 1.1rem;
+    margin-bottom: 16px;
+}
+
+/* Links */
+a {
+    color: #00AEEF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #5FD3FF;
+    text-decoration: underline;
+}
+```
