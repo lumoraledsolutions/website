@@ -29,6 +29,15 @@ a {
     text-decoration: none;
 }
 
+/* Logo */
+.logo {
+    display: block;
+    max-width: 550px;
+    width: 100%;
+    height: auto;
+    margin: 40px auto;
+}
+
 a:hover {
     color: #5FD3FF;
     text-decoration: underline;
