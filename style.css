@@ -24,8 +24,22 @@ p {
 
 /* Links */
 a {
-    color: #00AEEF;
+    color: #00DCF7;
     text-decoration: none;
+}
+
+nav a {
+    font-weight: bold;
+    padding: 10px 16px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 40px;
 }
 
 /* Logo */
@@ -40,4 +54,10 @@ a {
 a:hover {
     color: #5FD3FF;
     text-decoration: underline;
+}
+
+nav a:hover {
+    background-color: #00A9D6;
+    color: #000000;
+    text-decoration: none;
 }
